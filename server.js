@@ -14,7 +14,7 @@ const schoolRoutes = require("./Router/Schoolroutes");
 app.use("/api/school/", schoolRoutes);
 app.use("/api/user/",(req,res)=>{
   return res.status(200).json({
-    message:"new feature added"
+    message:"change feature added"
   })
 })
 
